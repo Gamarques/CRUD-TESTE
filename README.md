@@ -1,8 +1,8 @@
 ﻿<div align="center">
 
-# ðŸš€ CRUD Fullstack
+# 🚀 CRUD Fullstack
 
-### Sistema completo de gerenciamento de usuÃ¡rios com dashboard interativo
+### Sistema completo de gerenciamento de usuários com dashboard interativo
 
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)](https://vuejs.org/)
@@ -11,38 +11,38 @@
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-ConcluÃ­do-success?style=flat-square" alt="Status">
-  <img src="https://img.shields.io/badge/LicenÃ§a-MIT-blue?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/Status-Concluído-success?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/Licença-MIT-blue?style=flat-square" alt="License">
 </p>
 
 </div>
 
 ---
 
-## ðŸ“‹ Sobre o Projeto
+## 📋 Sobre o Projeto
 
-Sistema **Fullstack** desenvolvido com foco em **performance**, **reatividade** e **experiÃªncia do usuÃ¡rio**. Implementa um CRUD completo com dashboard de mÃ©tricas em tempo real, interface moderna e responsiva.
+Sistema **Fullstack** desenvolvido com foco em **performance**, **reatividade** e **experiência do usuário**. Implementa um CRUD completo com dashboard de métricas em tempo real, interface moderna e responsiva.
 
-### âœ¨ Destaques
+### ✨ Destaques
 
 ```
-âœ“ CRUD completo de usuÃ¡rios com validaÃ§Ãµes
-âœ“ Dashboard com mÃ©tricas em tempo real
-âœ“ Upload e preview de imagens
-âœ“ AtualizaÃ§Ãµes reativas sem reload
-âœ“ Interface moderna com ShadCN UI
-âœ“ ContainerizaÃ§Ã£o com Docker
+✓ CRUD completo de usuários com validações
+✓ Dashboard com métricas em tempo real
+✓ Upload e preview de imagens
+✓ Atualizações reativas sem reload
+✓ Interface moderna com ShadCN UI
+✓ Containerização com Docker
 ```
 
 ---
 
-## ðŸ› ï¸ Stack TecnolÃ³gica
+## 🛠️ Stack Tecnológica
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ðŸ”· Backend
+### 🔷 Backend
 ```yaml
 Runtime:     Node.js + Express
 Database:    SQLite (Better-SQLite3)
@@ -50,16 +50,16 @@ ID System:   UUID v4
 Container:   Docker + Docker Compose
 ```
 
-**CaracterÃ­sticas:**
+**Características:**
 - API RESTful completa
-- PersistÃªncia em arquivo SQLite
+- Persistência em arquivo SQLite
 - Endpoints otimizados
-- ContainerizaÃ§Ã£o isolada
+- Containerização isolada
 
 </td>
 <td width="50%" valign="top">
 
-### ï¿½ Frontend
+### 🎨 Frontend
 ```yaml
 Framework:   Nuxt 3 (Vue 3)
 State:       Pinia Store
@@ -68,11 +68,11 @@ Charts:      Chart.js + Vue-ChartJS
 Icons:       Lucide Icons
 ```
 
-**CaracterÃ­sticas:**
+**Características:**
 - SSR/SSG com Nuxt 3
 - Composables e reatividade
 - Design system consistente
-- Componentes reutilizÃ¡veis
+- Componentes reutilizáveis
 
 </td>
 </tr>
@@ -80,43 +80,43 @@ Icons:       Lucide Icons
 
 ---
 
-## ðŸŽ¯ Funcionalidades
+## 🎯 Funcionalidades
 
 <table>
 <tr>
 <td width="25%">
 
-### ðŸ‘¥ GestÃ£o de UsuÃ¡rios
-- Criar usuÃ¡rios
+### 👥 Gestão de Usuários
+- Criar usuários
 - Editar perfis
 - Excluir registros
-- ValidaÃ§Ã£o de dados
+- Validação de dados
 - Upload de avatar
 
 </td>
 <td width="25%">
 
-### ï¿½ Dashboard
-- Total de usuÃ¡rios
+### 📊 Dashboard
+- Total de usuários
 - Novos cadastros
-- MÃ©dia de idade
-- GrÃ¡fico temporal
+- Média de idade
+- Gráfico temporal
 - Atividades recentes
 
 </td>
 <td width="25%">
 
-### ðŸŽ¨ Interface
+### 🎨 Interface
 - Design responsivo
 - Dark mode ready
 - Modais e dialogs
 - Tabelas interativas
-- Sidebar navegÃ¡vel
+- Sidebar navegável
 
 </td>
 <td width="25%">
 
-### âš¡ Performance
+### ⚡ Performance
 - Estado global Pinia
 - Cache inteligente
 - Lazy loading
@@ -129,9 +129,9 @@ Icons:       Lucide Icons
 
 ---
 
-## ðŸ³ InÃ­cio RÃ¡pido com Docker
+## 🐳 Início Rápido com Docker
 
-### PrÃ©-requisitos
+### Pré-requisitos
 
 - [Docker](https://www.docker.com/get-started) instalado
 - [Docker Compose](https://docs.docker.com/compose/install/) instalado
@@ -139,7 +139,7 @@ Icons:       Lucide Icons
 ### Executando o projeto
 
 ```bash
-# Clone o repositÃ³rio
+# Clone o repositório
 git clone https://github.com/gamarques/crud-teste.git
 cd crud-teste
 
@@ -147,15 +147,15 @@ cd crud-teste
 docker compose up --build
 ```
 
-### ðŸŒ Acesso aos ServiÃ§os
+### 🌐 Acesso aos Serviços
 
-| ServiÃ§o | Porta | URL | DescriÃ§Ã£o |
+| Serviço | Porta | URL | Descrição |
 |---------|-------|-----|-----------|
-| ðŸŽ¨ **Frontend** | `3000` | http://localhost:3000 | AplicaÃ§Ã£o Nuxt 3 |
-| âš™ï¸ **Backend API** | `4000` | http://localhost:4000/api | API REST |
+| 🎨 **Frontend** | `3000` | http://localhost:3000 | Aplicação Nuxt 3 |
+| ⚙️ **Backend API** | `4000` | http://localhost:4000/api | API REST |
 
 <details>
-<summary>ðŸ“¦ ConfiguraÃ§Ã£o do Docker Compose</summary>
+<summary>📦 Configuração do Docker Compose</summary>
 
 ```yaml
 version: '3.9'
@@ -189,10 +189,10 @@ services:
 
 ---
 
-## ðŸ’» Executando Localmente (sem Docker)
+## 💻 Executando Localmente (sem Docker)
 
 <details>
-<summary><b>ï¿½ Backend</b></summary>
+<summary><b>⚙️ Backend</b></summary>
 
 ```bash
 cd backend
@@ -200,12 +200,12 @@ npm install
 npm start
 ```
 
-âœ… Servidor rodando em `http://localhost:4000/api`
+✅ Servidor rodando em `http://localhost:4000/api`
 
 </details>
 
 <details>
-<summary><b>ðŸŽ¨ Frontend</b></summary>
+<summary><b>🎨 Frontend</b></summary>
 
 ```bash
 cd frontend
@@ -213,20 +213,20 @@ npm install
 npm run dev
 ```
 
-âœ… AplicaÃ§Ã£o disponÃ­vel em `http://localhost:3000`
+✅ Aplicação disponível em `http://localhost:3000`
 
 </details>
 
 ---
 
-## ðŸ“¡ API Endpoints
+## 📡 API Endpoints
 
 <table>
 <thead>
 <tr>
-<th>MÃ©todo</th>
+<th>Método</th>
 <th>Endpoint</th>
-<th>DescriÃ§Ã£o</th>
+<th>Descrição</th>
 <th>Body/Params</th>
 </tr>
 </thead>
@@ -234,43 +234,43 @@ npm run dev
 <tr>
 <td><code>GET</code></td>
 <td><code>/api/users</code></td>
-<td>Lista todos os usuÃ¡rios</td>
+<td>Lista todos os usuários</td>
 <td>-</td>
 </tr>
 <tr>
 <td><code>GET</code></td>
 <td><code>/api/users/:id</code></td>
-<td>Busca usuÃ¡rio especÃ­fico</td>
+<td>Busca usuário específico</td>
 <td><code>:id</code></td>
 </tr>
 <tr>
 <td><code>POST</code></td>
 <td><code>/api/users</code></td>
-<td>Cria novo usuÃ¡rio</td>
+<td>Cria novo usuário</td>
 <td>JSON body</td>
 </tr>
 <tr>
 <td><code>PUT</code></td>
 <td><code>/api/users/:id</code></td>
-<td>Atualiza usuÃ¡rio</td>
+<td>Atualiza usuário</td>
 <td><code>:id</code> + JSON body</td>
 </tr>
 <tr>
 <td><code>DELETE</code></td>
 <td><code>/api/users/:id</code></td>
-<td>Remove usuÃ¡rio</td>
+<td>Remove usuário</td>
 <td><code>:id</code></td>
 </tr>
 <tr>
 <td><code>GET</code></td>
 <td><code>/api/users/new</code></td>
-<td>Retorna novos usuÃ¡rios</td>
+<td>Retorna novos usuários</td>
 <td>-</td>
 </tr>
 <tr>
 <td><code>GET</code></td>
 <td><code>/api/users/age</code></td>
-<td>Retorna mÃ©dia de idade</td>
+<td>Retorna média de idade</td>
 <td>-</td>
 </tr>
 </tbody>
@@ -292,7 +292,7 @@ POST /api/users
 
 ---
 
-## ðŸ—‚ï¸ Estrutura do Projeto
+## 🗂️ Estrutura do Projeto
 
 ```
 ðŸ“¦ crud-teste
@@ -338,16 +338,16 @@ CREATE TABLE users (
 );
 ```
 
-### CaracterÃ­sticas
+### Características
 
-- âœ… Banco embarcado (zero configuraÃ§Ã£o)
-- âœ… PersistÃªncia garantida via volume Docker
-- âœ… Suporte a transaÃ§Ãµes ACID
-- âœ… Backup facilitado (arquivo Ãºnico)
+- ✅ Banco embarcado (zero configuração)
+- ✅ Persistência garantida via volume Docker
+- ✅ Suporte a transações ACID
+- ✅ Backup facilitado (arquivo único)
 
 ---
 
-##  Gerenciamento de Estado (Pinia)
+## 🔄 Gerenciamento de Estado (Pinia)
 
 ### Arquitetura Reativa
 
@@ -377,85 +377,85 @@ export const useUserStore = defineStore('users', {
 
 | Recurso | Descrição |
 |---------|-----------|
-|  **Reatividade** | Updates automáticos em todos os componentes |
-|  **Cache** | Evita requisições redundantes |
-|  **Performance** | Estado centralizado e otimizado |
-|  **Modularidade** | Stores desacopladas e testáveis |
+| 🔄 **Reatividade** | Updates automáticos em todos os componentes |
+| 💾 **Cache** | Evita requisições redundantes |
+| ⚡ **Performance** | Estado centralizado e otimizado |
+| 🧩 **Modularidade** | Stores desacopladas e testáveis |
 
 ---
 
-##  Sistema de Design
+## 🎨 Sistema de Design
 
 ### Componentes ShadCN Vue
 
 ```
- Button        Card          Dialog       Input
- Table         Avatar        Sidebar      Sheet
- Skeleton      Toast         Tooltip      Separator
+✓ Button        Card          Dialog       Input
+✓ Table         Avatar        Sidebar      Sheet
+✓ Skeleton      Toast         Tooltip      Separator
 ```
 
 ### Temas e Customização
 
--  Baseado em variáveis CSS
--  Dark mode ready
--  Totalmente responsivo
--  Acessibilidade (ARIA)
+- 🎨 Baseado em variáveis CSS
+- 🌙 Dark mode ready
+- 📱 Totalmente responsivo
+- ♿ Acessibilidade (ARIA)
 
 ---
 
-##  Dashboard e Métricas
+## 📊 Dashboard e Métricas
 
 ### Cards de Estatísticas
 
 ```vue
- Total de Usuários       Contagem geral
- Novos Usuários          Cadastros recentes
- Média de Idade          Cálculo dinâmico
- Gráfico Temporal        Chart.js integration
- Atividades Recentes     Log em tempo real
+📊 Total de Usuários       Contagem geral
+👤 Novos Usuários          Cadastros recentes
+📈 Média de Idade          Cálculo dinâmico
+📉 Gráfico Temporal        Chart.js integration
+📝 Atividades Recentes     Log em tempo real
 ```
 
 ### Atualização Automática
 
--  Após criar usuário
--  Após editar usuário
--  Após excluir usuário
--  Sem necessidade de reload
+- 🔄 Após criar usuário
+- ✏️ Após editar usuário
+- 🗑️ Após excluir usuário
+- ⚡ Sem necessidade de reload
 
 ---
 
-##  Boas Práticas Implementadas
+## ✅ Boas Práticas Implementadas
 
 <table>
 <tr>
 <td width="50%">
 
-###  Código Limpo
--  Nomenclatura descritiva
--  Funções pequenas e focadas
--  Comentários quando necessário
--  Padrões consistentes
+### 🧹 Código Limpo
+- 📝 Nomenclatura descritiva
+- 🎯 Funções pequenas e focadas
+- 💬 Comentários quando necessário
+- 📐 Padrões consistentes
 
-###  Arquitetura
--  Separação de responsabilidades
--  Componentes reutilizáveis
--  Store centralizada
--  API RESTful
+### 🏗️ Arquitetura
+- 🔀 Separação de responsabilidades
+- 🧩 Componentes reutilizáveis
+- 🗃️ Store centralizada
+- 🔌 API RESTful
 
 </td>
 <td width="50%">
 
-###  Performance
--  Lazy loading de componentes
--  Cache inteligente
--  Debounce em inputs
--  Otimização de builds
+### ⚡ Performance
+- 🚀 Lazy loading de componentes
+- 💾 Cache inteligente
+- ⏱️ Debounce em inputs
+- 📦 Otimização de builds
 
-###  Segurança
--  Validação de dados
--  Sanitização de inputs
--  CORS configurado
--  Environment variables
+### 🔒 Segurança
+- ✅ Validação de dados
+- 🧹 Sanitização de inputs
+- 🌐 CORS configurado
+- 🔐 Environment variables
 
 </td>
 </tr>
@@ -463,7 +463,7 @@ export const useUserStore = defineStore('users', {
 
 ---
 
-##  Próximos Passos
+## 🚀 Próximos Passos
 
 - [ ] Implementar autenticação JWT
 - [ ] Adicionar testes unitários (Vitest)
@@ -474,13 +474,13 @@ export const useUserStore = defineStore('users', {
 
 ---
 
-##  Licença
+## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-##  Autor
+## 👨‍💻 Autor
 
 <div align="center">
 
@@ -492,6 +492,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-** Se este projeto foi útil, considere dar uma estrela!**
+⭐ **Se este projeto foi útil, considere dar uma estrela!**
 
 </div>
