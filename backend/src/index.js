@@ -39,6 +39,8 @@ app.get('/api/users', (req, res) => {
   res.json(data)
 })
 
+// ⚠️ ROTAS ESPECÍFICAS DEVEM VIR ANTES DA ROTA DINÂMICA (:id)
+
 // GET - AVERAGE AGE 
 app.get('/api/users/age', (req, res) => {
   const result = db.prepare(`
@@ -79,6 +81,9 @@ app.get('/api/users/new', (req, res) => {
     total: result.length
   })
 })
+
+// ⚠️ AGORA SIM A ROTA DINÂMICA (SEMPRE POR ÚLTIMO)
+
 // GET - READ 
 app.get('/api/users/:id', (req, res) => {
   const user = db.prepare(`SELECT * FROM users WHERE id = ?`).get(req.params.id)
@@ -150,7 +155,5 @@ app.delete('/api/users/:id', (req, res) => {
   }
   res.status(200).send()
 })
-
-
 
 app.listen(PORT, () => console.log(`✅ Backend rodando na porta ${PORT}`))
