@@ -13,14 +13,14 @@ const db = new Database('./db.sqlite')
 db.prepare(`
   CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY,
-    name TEXT,
-    email TEXT UNIQUE,
-    password TEXT,
-    cpf TEXT,
-    birthDate TEXT,
+    name TEXT NOT NULL,
+    email TEXT UNIQUE NOT NULL,
+    password TEXT NOT NULL,
+    cpf TEXT NOT NULL,
+    birthDate TEXT NOT NULL,
     avatar TEXT,
-    createdAt TEXT,
-    updatedAt TEXT
+    createdAt TEXT NOT NULL,
+    updatedAt TEXT NOT NULL
   )
 `).run()
 
@@ -90,8 +90,8 @@ app.get('/api/users/:id', (req, res) => {
 app.post('/api/users', (req, res) => {
   const { name, email, password, cpf, birthDate, avatar } = req.body
 
-   if (!name || !email || !password || !cpf || !birthDate || !avatar) {
-    return res.status(400).json({ message: 'Todos os campos são obrigatórios' })
+   if (!name || !email || !password || !cpf || !birthDate) {
+    return res.status(400).json({ message: 'Nome, email, senha, CPF e data de nascimento são obrigatórios' })
   }
 
   const exists = db.prepare(`SELECT 1 FROM users WHERE email = ?`).get(email)
