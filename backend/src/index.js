@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Database from 'better-sqlite3';
 
 const app = express();
+const PORT = process.env.PORT || 4000
 app.use(cors());
 app.use(express.json());
 
@@ -152,4 +153,4 @@ app.delete('/api/users/:id', (req, res) => {
 
 
 
-app.listen(4000, () => console.log('✅ Backend rodando na porta 4000'))
+app.listen(PORT, () => console.log(`✅ Backend rodando na porta ${PORT}`))

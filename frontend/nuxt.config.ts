@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      apiURL: 'http://localhost:4000/api'
+      apiURL: process.env.NUXT_PUBLIC_API_URL || 'http://localhost:4000/api'
     }
   }
 })
